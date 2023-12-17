@@ -1,4 +1,4 @@
-# Benchmark of Java JSON libraries
+# Benchmark of Java XML libraries
 
 ## Purpose
 
