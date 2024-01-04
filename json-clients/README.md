@@ -1,5 +1,13 @@
 # Benchmark of Java JSON libraries
 
+<!-- TOC -->
+* [Benchmark of Java JSON libraries](#benchmark-of-java-json-libraries)
+  * [Purpose](#purpose)
+  * [Results](#results)
+    * [Benchmark configuration](#benchmark-configuration)
+  * [Run](#run)
+<!-- TOC -->
+
 ## Purpose
 
 This project benchmarks the throughput performance of a variety of Java JSON libraries
@@ -32,7 +40,13 @@ Not evaluated are: RAM utilization, compression, payloads > 1 MB.
 
 The benchmarks are written with [JMH](https://openjdk.org/projects/code-tools/jmh/) and for Java 17.
 
-// Add images
+![Deserialization performance clients data](./PerformanceCharts/DeserClientsData.png)
+
+![Serialization performance clients data](./PerformanceCharts/SerClientsData.png)
+
+![Deserialization performance users data](./PerformanceCharts/DeserUsersData.png)
+
+![Serialization performance users data](./PerformanceCharts/SerUsersData.png)
 
 ### Benchmark configuration
 
